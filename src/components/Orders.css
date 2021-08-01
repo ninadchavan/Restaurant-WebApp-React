@@ -1,0 +1,58 @@
+.col-md-5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: white;
+    padding: 2%;
+}
+
+input{
+    margin-top: 5% !important;
+    border-width: 300px;
+}
+
+textarea{
+    margin-top: 5% !important;
+}
+
+button{
+    margin-top: 5% !important;
+    margin-bottom: 3% !important;
+}
+
+p{
+    color: white;
+    font: bold;
+}
+
+h1{
+    font-weight: bold !important;
+}
+
+.card{
+    padding: 2%;
+    margin: 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* font-family: arial; */
+}
+
+.card-name{
+    padding: 2%;
+    margin: 2% 0;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    border-radius: 10px;
+    text-align: left;
+    color: #292b2c;
+    /* font-family: arial; */
+}
+
+.card-name p{
+    color: #292b2c;
+    font-size: 16px;
+}
+
+span{
+    font-weight: bold;
+}

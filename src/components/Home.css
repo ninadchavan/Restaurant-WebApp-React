@@ -1,0 +1,13 @@
+.content-home{
+    background-image: url("Background1.jpg");
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: auto;
+    width: 101%;
+    height: 85vh;
+}
+
+.mes{
+    color: white;
+    margin-top: 15%;
+}
