@@ -89,7 +89,7 @@ export default function FeedbackForm(){
                 <div className="col-md-5">
                     <h1>Feedback Form</h1>
 
-                    <input type="text" placeholder="Enter Your Username" className="form-control" style={{borderColor:ucolor}}
+                    <input name="username" type="text" placeholder="Enter Your Username" className="form-control" style={{borderColor:ucolor}}
                     value={username} onChange={(e) => {setusername(e.target.value)}}></input>
                     <p>{eusername}</p>
                     
@@ -104,7 +104,7 @@ export default function FeedbackForm(){
                     </select>
                     <p>{erating}</p>
                     
-                    <textarea placeholder="Enter Your Comment" className="form-control" style={{borderColor:pcolor}}
+                    <textarea name="comment" placeholder="Enter Your Comment" className="form-control" style={{borderColor:pcolor}}
                     value={comment} onChange={(e) => {setcomment(e.target.value)}}></textarea>
                     <p>{ecomment}</p>
 

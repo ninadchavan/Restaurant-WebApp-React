@@ -12,7 +12,7 @@ export default function DisplayDish(){
 
     const[isLoading, setLoading] = useState(true);
     const[dishdata,setdishdata] = useState()
-    const[price,setprice] = useState('')
+    const[price,setprice] = useState('100')
 
     useEffect(() => {
         axios.get("https://www.themealdb.com/api/json/v1/1/filter.php?c=" + id).then(res => {
@@ -32,7 +32,7 @@ export default function DisplayDish(){
                 <div class="card">
                     <img src={items.strMealThumb} />
                     <h5>{items.strMeal}</h5>
-                    <input type="text" className="form-control" placeholder="Enter a price" value="100"
+                    <input type="text" className="form-control" placeholder="Enter a price" defaultValue="100"
                     onChange={(e) => {setprice(e.target.value)}}></input>
                     <Link to={{
                         pathname: "/orders",
